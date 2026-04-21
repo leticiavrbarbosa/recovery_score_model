@@ -45,11 +45,13 @@ Python
 Pandas
 Matplotlib
 Jupyter Notebook
+
 Example Output
 Day	Sleep	HR	Strain	Recovery	Recommendation
 Mon	7.5	58	12	~80	Train hard
 Tue	6.0	62	15	~55	Train light
 Wed	5.5	65	18	~35	Rest
+
 Model Notes
 This is a simplified, interpretable model—not a physiological or clinical system
 Constants (8 hours sleep, 10 bpm HR deviation, strain 20) are heuristic thresholds
@@ -57,6 +59,8 @@ In a production system, parameters would likely be:
 Personalized per user
 Learned from historical data
 Adapted over time
+
+
 Why I Built This
 
 I’m interested in systems that translate physiological and behavioral data into actionable insights for users. This project explores how simple models can bridge raw data and meaningful recommendations in the human performance space.
@@ -66,6 +70,8 @@ Personalization based on individual baselines
 Multi-day fatigue modeling (rolling strain)
 Nonlinear scoring (e.g., diminishing returns for sleep)
 Integration with real wearable data
+
+
 How to Run
 Clone the repository
 Open recovery_model.ipynb
